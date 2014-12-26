@@ -24,7 +24,7 @@ Sample output:
 
 The result is an `ArrayList` of `TaggedWords`.
 
-## Tested
+## Compatibility
 
 Verified to work on:
 
@@ -36,4 +36,4 @@ Verified to work on:
 
 This was initially hosted on [my homepage](http://utkarshu.in/PosTaggerM.m).
 [Douglas](https://plus.google.com/u/2/116294795843827001984/posts) found the code
-and 
+and improved it to work with the latest version of the tagger.
