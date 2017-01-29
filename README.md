@@ -24,12 +24,14 @@ Sample output:
 
 The result is an `ArrayList` of `TaggedWords`.
 
+**Note on performance:**: See [discussion on this issue](https://github.com/musically-ut/matlab-stanford-postagger/issues/1#issuecomment-275590128).
+
 ## Compatibility
 
 Verified to work on:
 
- - `3.4.1` of the tagger
- - Matlab version `8.3.0.532 (R2014a)`
+ - `3.3.1` and `3.4.1` of the tagger
+ - Matlab version `2010a` and `8.3.0.532 (R2014a)`
  - JRE 7 (version: `1.7`)
 
 ## Acknowledgements
@@ -37,3 +39,5 @@ Verified to work on:
 This was initially hosted on [my homepage](http://utkarshu.in/PosTaggerM.m).
 [Douglas](https://plus.google.com/u/2/116294795843827001984/posts) found the code
 and improved it to work with the latest version of the tagger.
+
+[@johnnykast](https://github.com/johnnykast) helped [debug](https://github.com/musically-ut/matlab-stanford-postagger/issues/1) some compatibility issues.
