@@ -1,4 +1,4 @@
-A small function to show how to use the [stanford-pos-tagger](http://nlp.stanford.edu/software/tagger.shtml) in Matlab.
+A small function to show how to use the [stanford-pos-tagger](http://nlp.stanford.edu/software/tagger.shtml) in MATLAB.
 
 ## Requirements
 
@@ -26,12 +26,14 @@ The result is an `ArrayList` of `TaggedWords`.
 
 **Note on performance:**: See [discussion on this issue](https://github.com/musically-ut/matlab-stanford-postagger/issues/1#issuecomment-275590128).
 
+**File path for `english-left3words-distsim.tagger` in Windows:**: See [discussion on and resolution of this issus](https://github.com/musically-ut/matlab-stanford-postagger/issues/3).
+
 ## Compatibility
 
 Verified to work on:
 
  - `3.3.1` and `3.4.1` of the tagger
- - Matlab version `2010a` and `8.3.0.532 (R2014a)`
+ - Matlab version `2010a`, `8.3.0.532 (R2014a)` and `R2016a`.
  - JRE 7 (version: `1.7`)
 
 ## Acknowledgements
