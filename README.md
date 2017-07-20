@@ -33,8 +33,10 @@ The result is an `ArrayList` of `TaggedWords`.
 Verified to work on:
 
  - `3.3.1` and `3.4.1` of the tagger
- - Matlab version `2010a`, `8.3.0.532 (R2014a)` and `R2016a`.
- - JRE 7 (version: `1.7`)
+ - Matlab version `2010a`, `8.3.0.532 (R2014a)`, `R2016a` and `R2017a`.
+ - JRE 7 (version: `1.7` and `1.8`)
+ 
+ Also, [see this issue](https://github.com/musically-ut/matlab-stanford-postagger/issues/4) for more details.
 
 ## Acknowledgements
 
@@ -43,3 +45,5 @@ This was initially hosted on [my homepage](http://utkarshu.in/PosTaggerM.m).
 and improved it to work with the latest version of the tagger.
 
 [@johnnykast](https://github.com/johnnykast) helped [debug](https://github.com/musically-ut/matlab-stanford-postagger/issues/1) some compatibility issues.
+
+[@Dardar-Usama](https://github.com/Sardar-Usama) did detailed analysis of compatibility.
